@@ -20,7 +20,8 @@
 # limitations under the License.
 #
 
-default['maven']['version'] = 3
+default['maven']['install_version'] = 3
+default['maven']['version'] = '3.0.5'
 default['maven']['m2_home'] = '/usr/local/maven'
 default['maven']['3']['version'] = "3.0.5"
 default['maven']['3']['url'] = "http://apache.mirrors.tds.net/maven/maven-3/#{node['maven']['3']['version']}/binaries/apache-maven-#{node['maven']['3']['version']}-bin.tar.gz"

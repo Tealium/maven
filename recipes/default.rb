@@ -22,4 +22,4 @@
 
 include_recipe "java"
 
-include_recipe "maven::maven#{node['maven']['version']}"
+include_recipe "maven::maven#{node['maven']['install_version']}"
