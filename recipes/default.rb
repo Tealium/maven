@@ -20,6 +20,6 @@
 # limitations under the License.
 #
 
-include_recipe "java"
+include_recipe "java_se"
 
 include_recipe "maven::maven#{node['maven']['install_version']}"
